@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: zhuCeZhongXin
+
+eureka:
+  client:
+    register-with-eureka: false # \u4E0D\u6CE8\u518C\u81EA\u5DF1
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:8080/eureka/
